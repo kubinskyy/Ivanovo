@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+#Ivanovo-main-section {
+    height: 500px;
+    border: 1px solid blue;
+}
+
+#Ivanovo-photo {
+    background-image: url(images/Ivanovo.png);
+    background-size: cover;
+}
