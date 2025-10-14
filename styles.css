@@ -1,13 +1,51 @@
 body {
-    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 
 #Ivanovo-main-section {
     height: 500px;
-    border: 1px solid blue;
-}
-
-#Ivanovo-photo {
     background-image: url(images/Ivanovo.png);
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#visit-Ivanovo {
+    padding: 6px 12px;
+    margin: 6px;
+    background: #6F8FF7;
+}
+
+#Ivanovo-description {
+    font-weight: 500;
+    padding: 6px 12px;
+    background-color: #49557A;
+    margin: 6px;
+    text-align: center;
+}
+
+#Ivanovo-activities {
+    height: 500px;
+    background: #A55B47;
+    display: flex;
+    justify-content: center;
+}
+
+#Ivanovo-pictures-activities {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#ferris-wheel, #Museum-of-Ivanovo-Chintz, #Museum-of-the-Soviet-Automobile-Industry {
+    width: 150px;
+    height: 150px;
+}
+
+#Your-guide {
+    height: 500px;
+    background: #647A49;
 }
