@@ -31,10 +31,18 @@ body {
     height: 500px;
     background: #A55B47;
     display: flex;
+    flex-direction: column;
+    border-radius: 1px solid blue;
+}
+
+#top-things-Ivanovo {
+    margin: 30px;
+    display: flex;
     justify-content: center;
 }
 
 #Ivanovo-pictures-activities {
+    margin: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,6 +51,12 @@ body {
 #ferris-wheel, #Museum-of-Ivanovo-Chintz, #Museum-of-the-Soviet-Automobile-Industry {
     width: 150px;
     height: 150px;
+    border-radius: 50%;
+}
+
+.mini-facts {
+    text-align: center;
+    width: 200px;
 }
 
 #Your-guide {
